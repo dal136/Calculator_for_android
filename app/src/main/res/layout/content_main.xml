@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:rowCount="6"
+    android:columnCount="4"
+    android:id="@+id/root"
+    >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_columnSpan="4"
+        android:textSize="50sp"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="4px"
+        android:padding="5px"
+        android:layout_gravity="right"
+        android:background="#eee"
+        android:textColor="#000"
+        android:text="0"
+        android:lines="5"
+        />
+    <Button
+        android:id="@+id/clear_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:text="清空"
+        android:textSize="40sp"
+        android:layout_gravity="fill"/>
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="回退"
+        android:textSize="40sp"
+        android:layout_gravity="fill"/>
+
+
+</GridLayout>
